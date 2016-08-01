@@ -1,0 +1,82 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Floats
+// -------------------------
+
+.clearfix {
+  @include clearfix;
+}
+.center-block {
+  @include center-block;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  @include text-hide;
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.hidden {
+  display: none !important;
+}
+
+
+// For Affix plugin
+// -------------------------
+
+.affix {
+  position: fixed;
+}
+
+.bigger-10 {font-size: 110%;}
+.bigger-20 {font-size: 120%;}
+.bigger-30 {font-size: 130%;}
+.bigger-40 {font-size: 140%;}
+.bigger-50 {font-size: 150%;}
+
+/* #bg-holder {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+}
+ */
+#bg-overlay {
+
+  background-color: rgba(230, 70, 58, 0.8);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.folio-heading {
+
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 12px;
+}
