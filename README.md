@@ -1,7 +1,11 @@
+Components Repo - Neene Project 
 
-React and ES6 - Part 6, React and ES6 Workflow with Webpack
+##List of Components Added till now : 
 
-Link to blog post - [React and ES6 - Part 6, React and ES6 Workflow with Webpack](http://egorsmirnov.me/).
+* Navigation (MobileNav Component + NavListItem Component)
+* Heading Component
+* Blurb Component
+
 
 ## How to install
 
