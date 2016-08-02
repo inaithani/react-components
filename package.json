@@ -1,7 +1,7 @@
 {
-  "name": "Neene React Web Components",
+  "name": "ishan-naithani-web-resume",
   "version": "1.0.0",
-  "description": "Neene React Web Components",
+  "description": "ishan-naithani-web-resume",
   "main": "main.js",
   "scripts": {
     "start": "node server.js",
